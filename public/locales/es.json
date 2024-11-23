@@ -1,0 +1,17 @@
+{
+    "button1": {
+      "label": "Botón 1",
+      "title": "Título del Botón 1",
+      "content": "Contenido del botón 1 aquí"
+    },
+    "button2": {
+      "label": "Botón 2",
+      "title": "Título del Botón 2",
+      "content": "Contenido del botón 2 aquí"
+    },
+    "button3": {
+      "label": "Botón 3",
+      "title": "Título del Botón 3",
+      "content": "Contenido del botón 3 aquí"
+    }
+  }
