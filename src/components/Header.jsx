@@ -3,21 +3,22 @@ import { useTranslation } from 'react-i18next';
 import { MapPin } from 'lucide-react';
 
 const Header = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
 
   return (
-    <header className="flex justify-between items-center p-4 bg-casca">
+    <header className="absolute top-0 left-0 w-screen flex justify-between items-center p-4">
       <a
         href="https://maps.google.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-600 hover:text-gray-900"
+        className="text-gray-600 hover:text-gray-900 flex columns-1"
       >
         <MapPin className="w-6 h-6" />
+        <p>{ t(`location`)}</p>
       </a>
 
       <select

@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {},
     colors: {
-      'laranjal': '#f89724',
+      'laranjal': '#F99724',
       'folha': '#262809',
       'casca': '#f9dd96',
       white: colors.white,

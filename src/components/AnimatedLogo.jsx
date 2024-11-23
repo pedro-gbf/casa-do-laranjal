@@ -21,7 +21,7 @@ const AnimatedLogo = () => {
         transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)`,
         transition: 'transform 0.2s ease-out',
       }}
-      className="w-[300px] h-[315px] md:w-[600px] md:h-[630px]"
+      className="w-[953px] h-[1000px] md:w-[953px] md:h-[1000px]"
     >
       <img 
         src="/logo.jpg" 

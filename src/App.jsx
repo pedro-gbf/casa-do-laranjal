@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import Header from './components/Header';
 import Modal from './components/Modal';
 import AnimatedLogo from './components/AnimatedLogo';
+import { MapPin } from 'lucide-react';
+import Header from './components/Header';
+
 
 const App = () => {
   const { t } = useTranslation();
@@ -14,9 +16,8 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 bg-laranjal">
-      <Header />
-      
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4">
+     <Header />
         {/* Flex container that changes direction based on screen size */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
           {/* Logo container */}
