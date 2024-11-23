@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between items-center p-4 bg-white">
+    <header className="flex justify-between items-center p-4 bg-casca">
       <a
         href="https://maps.google.com"
         target="_blank"
@@ -24,6 +24,7 @@ const Header = () => {
         onChange={(e) => changeLanguage(e.target.value)}
         className="p-2 border rounded"
       >
+        <option value="pt">PT</option>
         <option value="en">EN</option>
         <option value="es">ES</option>
         <option value="fr">FR</option>

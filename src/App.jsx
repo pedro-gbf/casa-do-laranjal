@@ -13,7 +13,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 bg-laranjal">
       <Header />
       
       <main className="container mx-auto px-4 py-8">
@@ -33,7 +33,7 @@ const App = () => {
                   title: t(`button${num}.title`),
                   body: t(`button${num}.content`),
                 })}
-                className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors w-full md:w-80 text-xl font-medium"
+                className="px-8 py-4 bg-folha text-casca rounded-lg hover:bg-blue-700 transition-colors w-full md:w-80 text-xl font-medium"
               >
                 {t(`button${num}.label`)}
               </button>

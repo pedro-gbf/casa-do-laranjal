@@ -1,0 +1,17 @@
+{
+    "button1": {
+      "label": "Atividades ao ar livre",
+      "title": "Atividades ao ar livre",
+      "content": "Conteúdo das atividades ao ar livre"
+    },
+    "button2": {
+      "label": "Restaurantes referenciados",
+      "title": "Restaurantes referenciados",
+      "content": "Conteúdo dos Restaurantes referenciados"
+    },
+    "button3": {
+      "label": "O que visitar no concelho",
+      "title": "O que visitar no concelho",
+      "content": "Conteúdo do O que visitar no concelho"
+    }
+  }
