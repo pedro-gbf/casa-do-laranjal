@@ -6,7 +6,7 @@ i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
+    fallbackLng: 'pt',
     debug: import.meta.env.DEV,
     interpolation: {
       escapeValue: false,

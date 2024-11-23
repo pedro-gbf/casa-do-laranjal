@@ -1,18 +1,18 @@
 {
-    "location": "Localização",
-    "button1": {
-      "label": "Atividades ao ar livre",
-      "title": "Atividades ao ar livre",
-      "content": "Conteúdo das atividades ao ar livre"
-    },
-    "button2": {
-      "label": "Restaurantes referenciados",
-      "title": "Restaurantes referenciados",
-      "content": "Conteúdo dos Restaurantes referenciados"
-    },
-    "button3": {
-      "label": "O que visitar no concelho",
-      "title": "O que visitar no concelho",
-      "content": "Conteúdo do O que visitar no concelho"
-    }
+  "location": "Nossa Localização",
+  "button1": {
+    "label": "Botão 1",
+    "title": "Título do Botão 1",
+    "content": "Conteúdo do botão 1 aqui"
+  },
+  "button2": {
+    "label": "Botão 2",
+    "title": "Título do Botão 2",
+    "content": "Conteúdo do botão 2 aqui"
+  },
+  "button3": {
+    "label": "Botão 3",
+    "title": "Título do Botão 3",
+    "content": "Conteúdo do botão 3 aqui"
   }
+}

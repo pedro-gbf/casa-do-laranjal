@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="absolute top-0 left-0 w-screen flex justify-between items-center p-4">
+    <header className="absolute top-0 left-0 w-screen flex justify-between items-center p-4 z-10">
       <a
         href="https://maps.google.com"
         target="_blank"

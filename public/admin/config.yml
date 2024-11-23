@@ -5,6 +5,26 @@ backend:
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
+definitions: &button_fields
+  - { label: "Label", name: "label", widget: "string" }
+  - { label: "Title", name: "title", widget: "string" }
+  - { label: "Content", name: "content", widget: "markdown" }
+
+translation_fields: &translation_structure
+  - { label: "Location", name: "location", widget: "string" }
+  - label: "Button 1"
+    name: "button1"
+    widget: "object"
+    fields: *button_fields
+  - label: "Button 2"
+    name: "button2"
+    widget: "object"
+    fields: *button_fields
+  - label: "Button 3"
+    name: "button3"
+    widget: "object"
+    fields: *button_fields
+
 collections:
   - name: "translations"
     label: "Translations"
@@ -12,106 +32,19 @@ collections:
       - label: "English"
         name: "english"
         file: "public/locales/en.json"
-        fields:
-          - label: "Button 1"
-            name: "button1"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-          - label: "Button 2"
-            name: "button2"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-          - label: "Button 3"
-            name: "button3"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-
+        fields: *translation_structure
+      
       - label: "Spanish"
         name: "spanish"
         file: "public/locales/es.json"
-        fields:
-          - label: "Button 1"
-            name: "button1"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-          - label: "Button 2"
-            name: "button2"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-          - label: "Button 3"
-            name: "button3"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-
+        fields: *translation_structure
+      
       - label: "French"
         name: "french"
         file: "public/locales/fr.json"
-        fields:
-          - label: "Button 1"
-            name: "button1"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-          - label: "Button 2"
-            name: "button2"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-          - label: "Button 3"
-            name: "button3"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-
+        fields: *translation_structure
+      
       - label: "Portuguese"
-        name: "french"
+        name: "portuguese"
         file: "public/locales/pt.json"
-        fields:
-            label: "Location"
-            name: "location"
-            widget: "string"
-          - label: "Button 1"
-            name: "button1"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-          - label: "Button 2"
-            name: "button2"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
-          - label: "Button 3"
-            name: "button3"
-            widget: "object"
-            fields:
-              - { label: "Label", name: "label", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Content", name: "content", widget: "markdown" }
+        fields: *translation_structure
