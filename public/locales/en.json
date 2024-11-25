@@ -1,18 +1,18 @@
 {
-    "location": "Our Location",
-    "button1": {
-      "label": "Button 1",
-      "title": "Button 1 Title",
-      "content": "Button 1 content goes here"
-    },
-    "button2": {
-      "label": "Button 2",
-      "title": "Button 2 Title",
-      "content": "Button 2 content goes here"
-    },
-    "button3": {
-      "label": "Button 3",
-      "title": "Button 3 Title",
-      "content": "Button 3 content goes here"
-    }
+  "location": "Our Locationzzz",
+  "button1": {
+    "label": "Button 1",
+    "title": "Button 1 Title",
+    "content": "Button 1 content goes here"
+  },
+  "button2": {
+    "label": "Button 2",
+    "title": "Button 2 Title",
+    "content": "Button 2 content goes here"
+  },
+  "button3": {
+    "label": "Button 3",
+    "title": "Button 3 Title",
+    "content": "Button 3 content goes here"
   }
+}
